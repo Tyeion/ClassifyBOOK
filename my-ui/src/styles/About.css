@@ -1,0 +1,38 @@
+/* src/components/About.css */
+.about-background {
+    background-image: url('https://images.pexels.com/photos/768125/pexels-photo-768125.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: cursive;
+  }
+  
+  .MuiAppBar-root {
+    background: rgba(0, 0, 0, 0.5) !important; /* Semi-transparent background for AppBar */
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 20vh; /* Adjust the vertical margin */
+  }
+  
+  .about-content {
+    padding: 20px;
+    background-image: url('https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=1600'); /* Replace with your background image URL */
+    background-color: rgba(181, 160, 160, 0.7); /* Semi-transparent background for the content */
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: aliceblue;
+  }
+  
+  .about-title {
+    font-weight: bold;
+    color: #FFD700; /* Text color, e.g., gold */
+    text-shadow: 1px 1px 2px gray; /* Gray outline effect */
+  }
+  

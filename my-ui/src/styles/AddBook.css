@@ -1,0 +1,51 @@
+/* src/components/AddBook.css */
+.addbook-background {
+    background-image: url('https://images.pexels.com/photos/1831744/pexels-photo-1831744.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .addbook-form {
+    background: rgba(255, 255, 255, 0.9); /* Lightened background for form */
+    border-radius: 12px; /* More rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 400px;
+    backdrop-filter: blur(8px); /* Light blur effect for better blending */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center contents horizontally */
+  }
+  
+  .form-title {
+    color: #333; /* Darker text color for better readability */
+    margin-bottom: 20px;
+    font-weight: bold; /* Make the title bold */
+  }
+  
+  button {
+    background-color: #5bd06d; /* Primary color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for better size */
+    font-size: 16px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    align-self: center; /* Center the button horizontally */
+  }
+  
+  button:hover {
+    background-color: #8c96a1; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+  }
+  
+  button:focus {
+    outline: none; /* Remove default focus outline */
+  }
+  

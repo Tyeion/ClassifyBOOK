@@ -1,0 +1,87 @@
+/* src/components/BookList.css */
+.booklist-background {
+    background-image: url('https://images.pexels.com/photos/207662/pexels-photo-207662.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .page-title {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    margin: 0 auto 20px auto;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 25px; /* Rounded corners for the search bar */
+  }
+  
+  .search-input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .booklist-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .book-card {
+    background: rgba(255, 255, 255, 0.9); /* Slightly off-white background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    margin-bottom: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .book-card:hover {
+    transform: scale(1.02); /* Slightly scale up the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* More pronounced shadow on hover */
+  }
+  
+  .book-card-info {
+    flex: 1;
+    margin-right: 10px;
+    color: #333; /* Dark text color for better readability */
+  }
+  
+  .book-card-info h6, .book-card-info p {
+    margin: 0;
+  }
+  
+  .book-card-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .book-card-info h6 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .book-card-info p {
+    font-size: 1rem;
+  }
+  
+  .book-card-info, .book-card-actions {
+    color: #333; /* Dark text color for better readability */
+  }
+  
+  /* Optional: Add text shadow for better visibility */
+  .book-card-info h6, .book-card-info p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
